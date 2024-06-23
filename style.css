@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(218, 218, 218);
+}
+.maincontainer{
+    display: flex;
+    border: 4px solid black;
+    flex-direction: column;
+    width:350px;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 auto;
+    
+    border-radius: 15px 15px 15px 15px; 
+    padding:10px;
+    gap:15px;
+    background-color: black;
+    margin-top: 80px;
+}
+button{
+    background-color: rgb(227, 0, 91);
+    color: white;
+    width:70px;
+    height: 70px;
+    font-size: larger;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 15px 15px 15px 15px; 
+    
+}
+#display
+{
+    padding-right: 14px;
+    border-radius: 0 0 8px 8px;
+
+
+}
+.firstline
+{
+    display: flex;
+    gap:15px;
+}
+.fifthline
+{
+    display: flex;
+    gap:15px;
+    margin-bottom: 20px;
+}
+.secondline
+{
+    display: flex;
+    gap:15px;
+}
+.thirdline
+{
+    display: flex;
+    gap:15px;
+}
+.fourthline
+{
+    display: flex;
+    gap:15px;
+}
+input
+{
+    width: 300px;
+    height: 55px;
+    text-align: right;
+    font-size: 30px;
+    padding: 0;
+   border: 2px solid white;
+    
+   
+    pointer-events: none;
+    
+  
+   
+}
+.symbols
+{
+    background-color: rgb(17, 172, 255);
+}
+.clearit
+{
+    background-color: rgb(108, 17, 255);
+    width: 160px;
+}
+.ddisp
+{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+#operation-display
+{
+    text-align: left;
+    padding-left: 14px;
+    margin-top: 17px;
+    border-radius: 8px 8px 0 0;
+
+}
+.bigwidth
+{
+    background-color: rgb(108, 17, 255);
+    width: 160px;
+}
+button:hover {
+    background-color: #00ff8c; 
+    color: rgb(8, 8, 8); 
+  }
